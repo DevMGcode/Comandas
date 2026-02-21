@@ -11,7 +11,7 @@ import { ProtectedRoute } from './presentation/components/auth/ProtectedRoute';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Comandas">
       <Toaster position="top-right" />
       <Routes>
         <Route path="/login" element={<LoginPage />} />
