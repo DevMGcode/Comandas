@@ -27,7 +27,7 @@ Iniciar sesión
 ```json
 {
   "email": "admin@comandas.com",
-  "password": "password123"
+  "password": "TU_CONTRASEÑA"
 }
 ```
 
@@ -120,7 +120,7 @@ Crear nuevo usuario (Solo ADMIN)
 {
   "name": "Nuevo Usuario",
   "email": "nuevo@comandas.com",
-  "password": "password123",
+  "password": "TU_CONTRASEÑA",
   "role": "WAITER"
 }
 ```
