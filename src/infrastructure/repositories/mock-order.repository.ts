@@ -15,6 +15,7 @@ class MockOrderRepository implements IOrderRepository {
     // this.seedData();
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   private seedData() {
     // Pedido 1: CONFIRMED - Mesa 1
     const order1Items = [

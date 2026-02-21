@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { LoginPage } from './presentation/pages/LoginPage';
@@ -8,10 +7,8 @@ import { KitchenPage } from './presentation/pages/KitchenPage';
 import MenuManagementPage from './presentation/pages/MenuManagementPage';
 import { Layout } from './presentation/components/layout/Layout';
 import { ProtectedRoute } from './presentation/components/auth/ProtectedRoute';
-import { useAuthStore } from './presentation/stores/auth.store';
 
 function App() {
-  const isAuthenticated = useAuthStore(state => state.isAuthenticated);
 
   return (
     <BrowserRouter>
