@@ -40,11 +40,11 @@ MongoDB Atlas es un servicio de base de datos en la nube totalmente administrado
    - Haz clic en "Connect"
    - Selecciona "Connect your application"
    - Copia el connection string
-   - Formato: `mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/`
+   - Formato: `mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER>.mongodb.net/`
 
 5. **Configurar en tu proyecto:**
    ```env
-   VITE_MONGODB_URI=mongodb+srv://comandas_admin:TU_PASSWORD@comandas-cluster.xxxxx.mongodb.net/comandas-restaurant?retryWrites=true&w=majority
+   VITE_MONGODB_URI=mongodb+srv://TU_USUARIO:TU_CONTRASEÑA@tu-cluster.xxxxx.mongodb.net/comandas-restaurant?retryWrites=true&w=majority
    ```
 
 ### Opción 2: MongoDB Local (Desarrollo)
